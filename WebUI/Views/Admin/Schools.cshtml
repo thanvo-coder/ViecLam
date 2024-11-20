@@ -1,0 +1,162 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+}
+
+
+<!-- BEGIN: Content-->
+<div class="app-content content ">
+    <div class="content-overlay"></div>
+    <div class="header-navbar-shadow"></div>
+    <div class="content-wrapper container-xxl p-0">
+        <div class="content-header row">
+        </div>
+        <div class="content-body">
+            <!-- users list start -->
+            <section class="app-user-list">               
+                <!-- list and filter start -->
+                <div class="card">
+                    <div class="card-body border-bottom">
+                        <h4 class="card-title">Tìm kiếm</h4>
+                        <div class="row">
+                            <div class="col-md-4 user_role"></div>
+                            <div class="col-md-4 user_plan"></div>
+                            <div class="col-md-4 user_status"></div>
+                        </div>
+                    </div>
+                    <div class="card-datatable table-responsive pt-0">
+                        <table class="user-list-table table">
+                            <thead class="table-light">
+                                <tr>
+                                    <th></th>
+                                    <th>@ViewData["Title"] </th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+
+                    <div style="display:none"> <input type="text" id="basic-icon-default-id" /> </div>
+                    <!-- Modal to add new user starts-->
+                    <div class="modal modal-slide-in new-user-modal fade" id="modals-slide-in">
+                        <div class="modal-dialog">
+                            <form class="add-new-user modal-content pt-0">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">×</button>
+                                <div class="modal-header mb-1">
+                                    <h5 class="modal-title" id="exampleModalLabel">Thêm trường</h5>
+                                </div>
+                                <div class="modal-body flex-grow-1">
+                                    <div class="mb-1">
+                                        <label class="form-label" for="basic-icon-default-fullname">Tên trường</label>
+                                        <input type="text" class="form-control dt-full-name" id="basic-icon-default-fullname" placeholder="Trường đại học .... " name="user-fullname" />
+                                    </div>
+                                   
+                                   <button type="submit" class="btn btn-primary me-1 data-submit">Submit</button>
+                                    <button type="reset" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Modal to add new user Ends-->
+
+                    <!-- Modal to edit user starts-->
+                    <div class="modal modal-slide-in edit-user-modal fade" id="modals-slide-in-edit">
+                        <div class="modal-dialog">
+                            <form class="edit-user modal-content pt-0">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">×</button>
+                                <div class="modal-header mb-1">
+                                    <h5 class="modal-title" id="exampleModalLabel">Sửa trường</h5>
+                                </div>
+                                <div class="modal-body flex-grow-1">
+                                    <div class="mb-1">
+                                        <label class="form-label" for="basic-icon-default-fullname-edit">Tên trường</label>
+                                        <input type="text" class="form-control dt-full-name" id="basic-icon-default-fullname-edit" placeholder="Trường đại học .... " name="user-fullname" />
+                                    </div>
+
+                                    <div class="mb-1">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" id="id-edit-status" type="checkbox"> Đang sử dụng
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary me-1 data-submit">Submit</button>
+                                    <button type="reset" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Modal to edit user Ends-->
+                    <!-- Modal to inactive user starts-->
+                    <div class="modal modal-slide-in inactive-user-modal fade" id="modals-slide-in-inactive">
+                        <div class="modal-dialog">
+                            <form class="inactive-user modal-content pt-0">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">×</button>
+                                <div class="modal-header mb-1">
+                                    <h5 class="modal-title">Bạn có muốn tạm ngừng sử dụng "<span id="idNameinactive"></span>"? </h5>
+                                </div>
+                                <div class="modal-body flex-grow-1">
+                                    <button type="submit" class="btn btn-primary me-1 data-submit">Submit</button>
+                                    <button type="reset" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Modal to inactive user Ends-->
+                    <!-- Modal to active user starts-->
+                    <div class="modal modal-slide-in active-user-modal fade" id="modals-slide-in-active">
+                        <div class="modal-dialog">
+                            <form class="active-user modal-content pt-0">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">×</button>
+                                <div class="modal-header mb-1">
+                                    <h5 class="modal-title">Bạn có muốn sử dụng lại "<span id="idNameactive"></span>"? </h5>
+                                </div>
+                                <div class="modal-body flex-grow-1">
+                                    <button type="submit" class="btn btn-primary me-1 data-submit">Submit</button>
+                                    <button type="reset" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Modal to active user Ends-->
+                    <!-- Modal to delete user starts-->
+                    <div class="modal modal-slide-in delete-user-modal fade" id="modals-slide-in-delete">
+                        <div class="modal-dialog">
+                            <form class="delete-user modal-content pt-0">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">×</button>
+                                <div class="modal-header mb-1">
+                                    <h5 class="modal-title">Bạn có muốn xóa hết "<span id="idNamedelete"></span>"? </h5>
+                                </div>
+
+                                <div class="mb-1">
+
+                                    <h5 class="modal-title">@ViewData["Title"] sẽ không được khôi phục! </h5>
+                                </div>
+                                <div class="modal-body flex-grow-1">
+                                    <button type="submit" class="btn btn-primary me-1 data-submit">Submit</button>
+                                    <button type="reset" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Modal to delete user Ends-->
+                </div>
+                <!-- list and filter end -->
+            </section>
+            <!-- users list ends -->
+
+        </div>
+    </div>
+</div>
+<!-- END: Content-->
+<script>
+
+    var fullApiLink = '@(cvidproStatic.apiLink)/api/v1/schools';
+    var apiUrl = fullApiLink + "/all?limit=0&page=1";
+    var authorization='Bearer @ViewData["Token"]';
+</script>
+
+<script src="~/app-assets/js/scripts/pages/app-school-list.js"></script>
+<!-- END: Page JS-->

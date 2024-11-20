@@ -1,0 +1,334 @@
+﻿@{
+    Layout = "_LayoutEmployee";
+    ViewData["Title"] = "Company_profile";
+}
+
+<!-- BEGIN: Content-->
+<div class="content-body">
+    <section id="modal-examples">
+        <div class="card">
+            <div class="row px-2">
+                <div class="col-md-6 col-6 p-2 pb-0">
+                    <div class="card-header border border-info rounded p-0 bg-main">
+                        <h4 class="card-title text-uppercase text-info mb-0 ms-2">THÔNG TIN NHÀ TUYỂN DỤNG</h4>
+                        <button type="button" class="btn user-edit text-info" data-bs-toggle="modal" data-bs-target="#editUser">
+                            <i data-feather="edit"></i> Edit
+                        </button>
+                    </div>
+                    <div class="card-body py-2 pb-0 px-0 my-25">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 mb-1">
+                                <div class="border-wrapper">
+                                    <label class="fw-bolder label1">Tên công ty</label>
+                                    <span class="text-value">CÔNG TY TNHH ÁNH DƯƠNG THÁI BÌNH</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-1">
+                                <div class="border-wrapper">
+                                    <label class="fw-bolder label1">Địa chỉ</label>
+                                    <span class="text-value">33 Đường S9, Phường Tây Thạnh, Quận Tân Phú, TP. Hồ Chí Minh, Việt Nam</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-1">
+                                <div class="border-wrapper">
+                                    <label class="fw-bolder label1">Mã số thuế</label>
+                                    <span class="text-value">0308902032</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-1">
+                                <div class="border-wrapper d-flex align-items-center">
+                                    <label class="fw-bolder label1">Giấy phép ĐKKD</label>
+                                    <div class="d-flex align-items-center text-value p-0">
+                                        <span class="text-value"></span>
+                                        <button type="button" class="btn btn-link p-0" id="custom-image">Xem ảnh</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-6 p-2 pb-0">
+                    <div class="card-header border border-info rounded p-0 bg-main">
+                        <h4 class="card-title text-uppercase text-info mb-0 ms-2">Thông tin người quản lý tài khoản</h4>
+                        <button type="button" class="btn user-edit text-info" data-bs-toggle="modal" data-bs-target="#editUser">
+                            <i data-feather="edit"></i> Edit
+                        </button>
+                    </div>
+                    <div class="card-body py-2 pb-0 px-0 my-25">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 mb-1">
+                                <div class="border-wrapper">
+                                    <label class="fw-bolder label1">Họ và tên</label>
+                                    <span class="text-value">Trần Hiệp</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-1">
+                                <div class="border-wrapper">
+                                    <label class="fw-bolder label1">Số điện thoại</label>
+                                    <span class="text-value">0903027848</span>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 mb-1">
+                                <div class="border-wrapper d-flex align-items-center">
+                                    <label class="fw-bolder label1">Email</label>
+                                    <div class="d-flex align-items-center text-value p-0">
+                                        <span class="text-value">hieptran@glowpacific.com</span>
+                                        <button type="button" class="btn btn-link text-success p-0" id="custom-image">Đã xác thực</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-1">
+                                <div class="border-wrapper">
+                                    <label class="fw-bolder label1">Chức vụ</label>
+                                    <span class="text-value">Giám đốc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row px-2">
+                <div class="col-md-12 col-12 mb-1 p-2">
+                    <div class="card-header border border-info rounded p-0 bg-main">
+                        <h4 class="card-title text-uppercase text-info mb-0 ms-2">Mô tả thông tin nhà tuyển dụng</h4>
+                        <button type="button" class="btn user-edit text-info" data-bs-toggle="modal" data-bs-target="#editUser">
+                            <i data-feather="edit"></i> Edit
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 my-25">
+                        <!-- thông tin cơ bản -->
+                        <form class="validate-form mt-2 pt-50">
+                            <h4 class="card-title text-info text-uppercase">THÔNG TIN CƠ BẢN</h4>
+                            <div class="row">
+                                <div class="col-12 col-sm-6 mb-1">
+                                    <div class="border-wrapper">
+                                        <label class="fw-bolder label">Tên công ty</label>
+                                        <span class="text-value">CÔNG TY TNHH ÁNH DƯƠNG THÁI BÌNH</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 mb-1">
+                                    <div class="border-wrapper">
+                                        <label class="fw-bolder label">Loại hình công ty</label>
+                                        <span class="text-value">CÔNG TY TNHH HAI THÀNH VIÊN TRỞ LÊN</span>
+                                    </div>
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <label class="form-label fw-bolder">Mô hình doanh nghiệp</label>
+                                    <input type="text" class="form-control" value="Công ty mẹ" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <label class="form-label fw-bolder">Địa chỉ kinh doanh</label>
+                                    <input type="text" class="form-control" value="TP.Hồ Chí Minh" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <label class="form-label fw-bolder">Số lượng nhân viên</label>
+                                    <input type="text" class="form-control" value="Dưới 20" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <label class="form-label fw-bolder">Hệ thống chất lượng</label>
+                                    <input type="text" class="form-control" value="• ISO 9001" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <label class="form-label fw-bolder">Loại hình kinh doanh</label>
+                                    <input type="text" class="form-control" value="Dịch vụ" />
+                                </div>
+                                <div class="col-9 col-md-9 mb-1">
+                                    <label class="form-label fw-bolder">Lĩnh vực kinh doanh</label>
+                                    <input type="text" class="form-control" value="• Bất động sản • Xây dựng" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Nông nghiệp" />
+                                </div>
+                                <div class="col-9 col-md-9 mb-1">
+                                    <input type="text" class="form-control" value="• Trồng trọt • Chăn nuôi • Thủy sản" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Thương mại" />
+                                </div>
+                                <div class="col-9 col-md-9 mb-1">
+                                    <input type="text" class="form-control" value="• Bán lẻ • Bán buôn" />
+                                </div>
+
+                            </div>
+                        </form>
+
+                        <!-- thông tin bổ sung -->
+                        <form class="validate-form mt-2 pt-50">
+                            <h4 class="card-title text-info text-uppercase">THÔNG TIN BỔ SUNG</h4>
+                            <div class="row">
+                                <div class="col-3 col-md-3 mb-1">
+                                    <label class="form-label fw-bolder">Đơn vị trực thuộc</label>
+                                    <input type="text" class="form-control" value="Chi nhánh" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <label class="form-label fw-bolder">Địa chỉ kinh doanh</label>
+                                    <input type="text" class="form-control" value="TP.Hồ Chí Minh" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <label class="form-label fw-bolder">Số lượng nhân viên</label>
+                                    <input type="text" class="form-control" value="Dưới 10" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <label class="form-label fw-bolder">Hệ thống chất lượng</label>
+                                    <input type="text" class="form-control" value="• ISO 22000 • ISO 14000" />
+                                </div>
+
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Công ty con" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Tỉnh Bình Định" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Dưới 60" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="• VietGAP" />
+                                </div>
+
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Nhà máy" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Tỉnh Hà Nam" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Dưới 20" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="• ISO 22000 • ISO 14000" />
+                                </div>
+
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Văn phòng đại diện" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="TP.Hồ Chí Minh" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Dưới 10" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="• ISO 14000 • HACCP" />
+                                </div>
+
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Văn phòng đại diện" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="TP.Hồ Chí Minh" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="Dưới 70" />
+                                </div>
+                                <div class="col-3 col-md-3 mb-1">
+                                    <input type="text" class="form-control" value="• HACCP" />
+                                </div>
+                            </div>
+                        </form>
+                        <!--/ form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Edit User Modal -->
+    <div class="modal fade" id="editUser" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-edit-user">
+            <div class="modal-content">
+                <div class="modal-header bg-transparent">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-5 px-sm-5 pt-50">
+                    <div class="text-center mb-2">
+                        <h1 class="mb-1">CẬP NHẬT THÔNG TIN CÁ NHÂN</h1>
+                    </div>
+                    <form id="editUserForm" class="row gy-1 pt-75" onsubmit="return false">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountFirstName">Họ và tên</label>
+                                    <input type="text" class="form-control" id="accountFirstName" name="firstName" placeholder="John" value="John" data-msg="Please enter first name" />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountBirthday">Ngày sinh</label>
+                                    <input type="date" class="form-control" id="accountBirthday" name="birthday" placeholder="Chọn ngày sinh" value="2000-01-01" data-msg="Please enter a valid date" />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountGender">Giới tính</label>
+                                    <select class="form-select" id="accountGender" name="gender">
+                                        <option value="Nam" selected>Nam</option>
+                                        <option value="Nữ">Nữ</option>
+                                        <option value="Khác">Khác</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountNationality">Quốc tịch</label>
+                                    <select class="form-select" id="accountNationality" name="nationality">
+                                        <option value="Việt Nam" selected>Việt Nam</option>
+                                        <option value="Mỹ">Mỹ</option>
+                                        <option value="Nhật Bản">Nhật Bản</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="officialLanguage">Ngôn ngữ chính thức</label>
+                                    <select class="form-select" id="officialLanguage" name="language">
+                                        <option value="Tiếng Việt" selected>Tiếng Việt</option>
+                                        <option value="Tiếng Anh">Tiếng Anh</option>
+                                        <option value="Tiếng Pháp">Tiếng Pháp</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="educationLevel">Trình độ văn hóa</label>
+                                    <input type="text" class="form-control" id="educationLevel" name="educationLevel" value="12/12" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="country">Quốc gia</label>
+                                        <select class="form-select" id="country" name="country">
+                                            <option value="Việt Nam" selected>Việt Nam</option>
+                                            <option value="Mỹ">Mỹ</option>
+                                            <option value="Nhật Bản">Nhật Bản</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="city">Tỉnh/Thành phố</label>
+                                        <input type="text" class="form-control" id="city" name="city" value="TP. Hồ Chí Minh" />
+                                    </div>
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="district">Quận/Huyện</label>
+                                        <input type="text" class="form-control" id="district" name="district" value="Bình Chánh" />
+                                    </div>
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="ward">Xã/Phường</label>
+                                        <input type="text" class="form-control" id="ward" name="ward" value="An Phú Tây" />
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="address">Địa chỉ</label>
+                                    <input type="text" class="form-control" id="address" name="address" value="Số nhà 39, Đường S9" />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountPhoneNumber">Phone Number</label>
+                                    <input type="text" class="form-control account-number-mask" id="accountPhoneNumber" name="phoneNumber" placeholder="Phone Number" value="457 657 1237" />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountEmail">Email</label>
+                                    <input type="email" class="form-control" id="accountEmail" name="email" placeholder="Email" value="johndoe@gmail.com" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Edit User Modal -->
+
+</div>

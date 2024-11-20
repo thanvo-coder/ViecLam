@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html class="loading semi-dark-layout" lang="en" data-layout="semi-dark-layout" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CVIDPRO</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/calendars/fullcalendar.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/forms/select/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+    <!-- END: Vendor CSS-->
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/plugins/forms/pickers/form-flat-pickr.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/pages/app-calendar.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/plugins/forms/form-validation.css">
+    <!-- END: Page CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css">
+    <!-- END: Custom CSS-->
+    <!-- CSS here -->
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <style>
+        .table td {
+            max-width: 200px; /* Bạn có thể thay đổi giá trị này theo nhu cầu */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .gradient-box {
+            background: rgba(0, 29, 56, 0.8);
+        }
+
+        html .home-content.app-content {
+            padding: calc(2rem + 4.45rem + 1.3rem) 2rem 0;
+        }
+    </style>
+</head>
+<!-- END: Head-->
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="">
+
+    @await Component.InvokeAsync("LeftNavHome")
+    
+    <div class="app-content home-content">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper container-xxl p-0">
+            @RenderBody()
+        </div>
+    </div>
+    
+
+    @await Component.InvokeAsync("Footer")
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+
+
+    <button class="btn btn-info btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="~/app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="~/app-assets/vendors/js/calendar/fullcalendar.min.js"></script>
+    <script src="~/app-assets/vendors/js/extensions/moment.min.js"></script>
+    <script src="~/app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+    <script src="~/app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+    <script src="~/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+    <!-- END: Page Vendor JS-->
+    <!-- BEGIN: Theme JS-->
+    <script src="~/app-assets/js/core/app-menu.js"></script>
+    <script src="~/app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+    <!-- BEGIN: Page JS-->
+    <script src="~/app-assets/js/scripts/pages/app-calendar-events.js"></script>
+    <script src="~/app-assets/js/scripts/pages/app-calendar.js"></script>
+    <!-- END: Page JS-->
+
+    <script>
+
+        $(window).on('load', function () {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        });
+
+        $('.select2').select2({
+            theme: 'bootstrap4'
+        });
+
+        $(document).ready(function () {
+            $(".dataTable").DataTable({
+                "language": {
+                    "sProcessing": "Loading...",
+                    "sLengthMenu": "Show _MENU_ entries",
+                    "sZeroRecords": "Data not updated yet!",
+                    "sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+                    "sInfoEmpty": "Showing 0 to 0 of 0 entries",
+                    "sInfoFiltered": "(filtered from _MAX_ mục)",
+                    "sSearch": "Search:",
+                    "oPaginate": {
+                        "sFirst": "First",
+                        "sPrevious": "Previous",
+                        "sNext": "Next",
+                        "sLast": "Last"
+                    }
+                },
+                "order": [], // Tắt sắp xếp mặc định
+                "deferRender": true,
+                "autoWidth": true,
+                "responsive": true,
+                "columnDefs": [
+                    { "targets": 'sorting_disabled', "orderable": false }
+                ],
+                "drawCallback": function (settings) {
+                    if (feather) {
+                        feather.replace({ width: 14, height: 14 });
+                    }
+                }
+            });
+
+            if (feather) {
+                feather.replace({ width: 14, height: 14 });
+            }
+        });
+    </script>
+</body>
+
+</html>

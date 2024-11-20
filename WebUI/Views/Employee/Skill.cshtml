@@ -1,0 +1,249 @@
+﻿@{
+    Layout = "_LayoutEmployee";
+    ViewData["Title"] = "Skill";
+}
+
+<!-- BEGIN: Content-->
+<div class="content-body">
+    <section id="basic-and-outline-pills">
+        <div class="row match-height">
+            <!-- Basic pills starts -->
+            <div class="col-xl-12 col-lg-12">
+                <div class="card">
+                    <div class="card-header" style="border-bottom: none  !important;">
+                        <h4 class="card-title text-uppercase text-info">QUẢN LÝ KỸ NĂNG</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="nav nav-pills justify-content-between">
+                            <li class="nav-item w-25">
+                                <a class="nav-link fw-bolder border active" id="bangcapchuyenmon-tab" data-bs-toggle="pill" href="#bangcapchuyenmon" aria-expanded="true">DANH SÁCH BẰNG CẤP CHUYÊN MÔN</a>
+                            </li>
+                            <li class="nav-item w-25">
+                                <a class="nav-link fw-bolder border" id="kynangngoaingu-tab" data-bs-toggle="pill" href="#kynangngoaingu" aria-expanded="false">DANH SÁCH KỸ NĂNG NGOẠI NGỮ</a>
+                            </li>
+                            <li class="nav-item w-25">
+                                <a class="nav-link fw-bolder border" id="kynangchuyenmon-tab" data-bs-toggle="pill" href="#kynangchuyenmon" aria-expanded="false">DANH SÁCH KỸ NĂNG CHUYÊN MÔN</a>
+                            </li>
+                            <li class="nav-item w-25">
+                                <a class="nav-link fw-bolder border" id="kynangmem-tab" data-bs-toggle="pill" href="#kynangmem" aria-expanded="false">DANH SÁCH KỸ NĂNG MỀM</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="bangcapchuyenmon" aria-labelledby="bangcapchuyenmon-tab" aria-expanded="true">
+                                <div class="content-body">
+                                    <section class="app-user-list">
+                                        <div class="card">
+                                            <div class="card-datatable table-responsive pt-0">
+                                                <table class="user-list-table table">
+                                                    <thead class="table-light">
+                                                        <tr>
+                                                            <th>STT</th>
+                                                            <th>Chuyên ngành</th>
+                                                            <th>Tên bằng cấp</th>
+                                                            <th>Cấp bậc</th>
+                                                            <th>Loại hình đào tạo</th>
+                                                            <th>Xếp loại</th>
+                                                            <th class="text-center">Thao tác</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Quản trị kinh doanh</td>
+                                                            <td>Thạc sĩ</td>
+                                                            <td>Trưởng phòng</td>
+                                                            <td>Tập trung</td>
+                                                            <td>Giỏi</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-success">Xem</button>
+                                                                <button class="btn btn-info">Cập nhật</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Marketing</td>
+                                                            <td>Cử nhân</td>
+                                                            <td>Nhân viên</td>
+                                                            <td>Từ xa</td>
+                                                            <td>Khá</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-success">Xem</button>
+                                                                <button class="btn btn-info">Cập nhật</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="kynangngoaingu" role="tabpanel" aria-labelledby="kynangngoaingu-tab" aria-expanded="false">
+                                <div class="content-body">
+                                    <section class="app-user-list">
+                                        <div class="card">
+                                            <div class="card-datatable table-responsive pt-0">
+                                                <table class="user-list-table table">
+                                                    <thead class="table-light">
+                                                        <tr>
+                                                            <th></th>
+                                                            <th>Tên kỹ năng</th>
+                                                            <th>Tài liệu pháp lý</th>
+                                                            <th>Tên chứng chỉ</th>
+                                                            <th>Trình độ</th>
+                                                            <th>Thời hạn</th>
+                                                            <th class="text-center">Thao tác</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Tiếng Anh</td>
+                                                            <td>Chứng chỉ</td>
+                                                            <td>TOEIC</td>
+                                                            <td>C2</td>
+                                                            <td>Đã hết hạn</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-success">Xem</button>
+                                                                <button class="btn btn-info">Cập nhật</button>
+                                                                <button class="btn btn-danger">Xóa</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Tiếng Nhật</td>
+                                                            <td>Chứng chỉ</td>
+                                                            <td>JLPT</td>
+                                                            <td>N1</td>
+                                                            <td>Không có thời hạn</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-success">Xem</button>
+                                                                <button class="btn btn-info">Cập nhật</button>
+                                                                <button class="btn btn-danger">Xóa</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="kynangchuyenmon" role="tabpanel" aria-labelledby="kynangchuyenmon-tab" aria-expanded="false">
+                                <div class="content-body">
+                                    <section class="app-user-list">
+                                        <div class="card">
+                                            <div class="card-datatable table-responsive pt-0">
+                                                <table class="user-list-table table">
+                                                    <thead class="table-light">
+                                                        <tr>
+                                                            <th></th>
+                                                            <th>Chuyên ngành</th>
+                                                            <th>Loại kỹ năng</th>
+                                                            <th>Tài liệu pháp lý</th>
+                                                            <th>Tên kỹ năng</th>
+                                                            <th>Trình độ</th>
+                                                            <th>Thời hạn</th>
+                                                            <th class="text-center">Thao tác</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Công nghệ thông tin</td>
+                                                            <td>Chuyên môn</td>
+                                                            <td>Tài liệu A</td>
+                                                            <td>Lập trình Python</td>
+                                                            <td>Cao đẳng</td>
+                                                            <td>2024-12-31</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-success">Xem</button>
+                                                                <button class="btn btn-info">Cập nhật</button>
+                                                                <button class="btn btn-danger">Xóa</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Marketing</td>
+                                                            <td>Kỹ năng mềm</td>
+                                                            <td>Tài liệu B</td>
+                                                            <td>Digital Marketing</td>
+                                                            <td>Cử nhân</td>
+                                                            <td>2025-06-30</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-success">Xem</button>
+                                                                <button class="btn btn-info">Cập nhật</button>
+                                                                <button class="btn btn-danger">Xóa</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="kynangmem" role="tabpanel" aria-labelledby="kynangmem-tab" aria-expanded="false">
+                                <div class="content-body">
+                                    <section class="app-user-list">
+                                        <div class="card">
+                                            <div class="card-datatable table-responsive pt-0">
+                                                <table class="user-list-table table">
+                                                    <thead class="table-light">
+                                                        <tr>
+                                                            <th></th>
+                                                            <th>Loại kỹ năng</th>
+                                                            <th>Tài liệu pháp lý</th>
+                                                            <th>Tên kỹ năng</th>
+                                                            <th>Trình độ</th>
+                                                            <th>Thời hạn</th>
+                                                            <th class="text-center">Thao tác</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Chuyên môn</td>
+                                                            <td><a href="#">Tài liệu A</a></td>
+                                                            <td>Lập trình Web</td>
+                                                            <td>Cao đẳng</td>
+                                                            <td>2024-12-31</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-success">Xem</button>
+                                                                <button class="btn btn-info">Cập nhật</button>
+                                                                <button class="btn btn-danger">Xóa</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Kỹ năng mềm</td>
+                                                            <td><a href="#">Tài liệu B</a></td>
+                                                            <td>Thuyết trình</td>
+                                                            <td>Cử nhân</td>
+                                                            <td>2025-06-30</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-success">Xem</button>
+                                                                <button class="btn btn-info">Cập nhật</button>
+                                                                <button class="btn btn-danger">Xóa</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Basic pills ends -->
+        </div>
+    </section>
+
+</div>

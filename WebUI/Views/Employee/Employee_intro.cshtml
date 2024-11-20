@@ -1,0 +1,197 @@
+﻿@{
+    Layout = "_LayoutEmployee";
+    ViewData["Title"] = "Employee_intro";
+}
+
+<!-- BEGIN: Content-->
+<div class="content-body">
+    <section id="modal-examples">
+        <div class="row">
+            <div class="card">
+                <div class="card-header border-bottom">
+                    <h4 class="card-title text-info">THÔNG TIN CÁ NHÂN</h4>
+                    <button type="button" class="btn user-edit text-info" data-bs-toggle="modal" data-bs-target="#editUser"><i data-feather='edit'></i> Edit</button>
+                </div>
+                <div class="card-body py-2 my-25">
+                    <!-- header section -->
+                    <div class="d-flex">
+                        <a href="#" class="me-25">
+                            <img src="/app-assets/images/portrait/small/avatar-s-11.jpg" id="account-upload-img" class="uploadedAvatar rounded me-50" alt="profile image" height="100" width="100" />
+                        </a>
+                        <!-- upload and reset button -->
+                        <div class="d-flex align-items-end mt-75 ms-1">
+                            <div>
+                                <label for="account-upload" class="btn btn-sm btn-info mb-75 me-75">Upload</label>
+                                <input type="file" id="account-upload" hidden accept="image/*" />
+                                <button type="button" id="account-reset" class="btn btn-sm btn-outline-secondary mb-75">Reset</button>
+                                <p class="mb-0">Allowed file types: png, jpg, jpeg.</p>
+                            </div>
+                        </div>
+                        <!--/ upload and reset button -->
+                    </div>
+                    <!--/ header section -->
+                    <!-- form -->
+                    <form class="validate-form mt-2 pt-50">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountFirstName">Họ và tên</label>
+                                    <input type="text" class="form-control" id="accountFirstName" name="firstName" placeholder="John" value="John" data-msg="Please enter first name" readonly />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountBirthday">Ngày sinh</label>
+                                    <input type="date" class="form-control" id="accountBirthday" name="birthday" placeholder="Chọn ngày sinh" value="2000-01-01" data-msg="Please enter a valid date" readonly />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountGender">Giới tính</label>
+                                    <input class="form-control" type="text" id="accountGender" name="gender" data-msg="Please select gender" value="Nam" readonly />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountNationality">Quốc tịch</label>
+                                    <input type="text" class="form-control" id="accountNationality" name="nationality" value="Việt Nam" readonly />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="officialLanguage">Ngôn ngữ chính thức</label>
+                                    <input type="text" class="form-control" id="officialLanguage" name="language" value="Tiếng Việt" readonly />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="educationLevel">Trình độ văn hóa</label>
+                                    <input type="text" class="form-control" id="educationLevel" name="educationLevel" value="12/12" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="country">Quốc gia</label>
+                                        <input type="text" class="form-control" id="country" name="country" value="Việt Nam" readonly />
+                                    </div>
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="city">Tỉnh/Thành phố</label>
+                                        <input type="text" class="form-control" id="city" name="city" value="TP. Hồ Chí Minh" readonly />
+                                    </div>
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="district">Quận/Huyện</label>
+                                        <input type="text" class="form-control" id="district" name="district" value="Bình Chánh" readonly />
+                                    </div>
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="ward">Xã/Phường</label>
+                                        <input type="text" class="form-control" id="ward" name="ward" value="An Phú Tây" readonly />
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="address">Địa chỉ</label>
+                                    <input type="text" class="form-control" id="address" name="address" value="Số nhà 39, Đường S9" readonly />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountPhoneNumber">Phone Number</label>
+                                    <input type="text" class="form-control account-number-mask" id="accountPhoneNumber" name="phoneNumber" placeholder="Phone Number" value="457 657 1237" readonly />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountEmail">Email</label>
+                                    <input type="email" class="form-control" id="accountEmail" name="email" placeholder="Email" value="johndoe@gmail.com" readonly />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!--/ form -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Edit User Modal -->
+    <div class="modal fade" id="editUser" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-edit-user">
+            <div class="modal-content">
+                <div class="modal-header bg-transparent">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-5 px-sm-5 pt-50">
+                    <div class="text-center mb-2">
+                        <h1 class="mb-1">CẬP NHẬT THÔNG TIN CÁ NHÂN</h1>
+                    </div>
+                    <form id="editUserForm" class="row gy-1 pt-75" onsubmit="return false">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountFirstName">Họ và tên</label>
+                                    <input type="text" class="form-control" id="accountFirstName" name="firstName" placeholder="John" value="John" data-msg="Please enter first name" />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountBirthday">Ngày sinh</label>
+                                    <input type="date" class="form-control" id="accountBirthday" name="birthday" placeholder="Chọn ngày sinh" value="2000-01-01" data-msg="Please enter a valid date" />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountGender">Giới tính</label>
+                                    <select class="form-select" id="accountGender" name="gender">
+                                        <option value="Nam" selected>Nam</option>
+                                        <option value="Nữ">Nữ</option>
+                                        <option value="Khác">Khác</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountNationality">Quốc tịch</label>
+                                    <select class="form-select" id="accountNationality" name="nationality">
+                                        <option value="Việt Nam" selected>Việt Nam</option>
+                                        <option value="Mỹ">Mỹ</option>
+                                        <option value="Nhật Bản">Nhật Bản</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="officialLanguage">Ngôn ngữ chính thức</label>
+                                    <select class="form-select" id="officialLanguage" name="language">
+                                        <option value="Tiếng Việt" selected>Tiếng Việt</option>
+                                        <option value="Tiếng Anh">Tiếng Anh</option>
+                                        <option value="Tiếng Pháp">Tiếng Pháp</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="educationLevel">Trình độ văn hóa</label>
+                                    <input type="text" class="form-control" id="educationLevel" name="educationLevel" value="12/12" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="country">Quốc gia</label>
+                                        <select class="form-select" id="country" name="country">
+                                            <option value="Việt Nam" selected>Việt Nam</option>
+                                            <option value="Mỹ">Mỹ</option>
+                                            <option value="Nhật Bản">Nhật Bản</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="city">Tỉnh/Thành phố</label>
+                                        <input type="text" class="form-control" id="city" name="city" value="TP. Hồ Chí Minh" />
+                                    </div>
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="district">Quận/Huyện</label>
+                                        <input type="text" class="form-control" id="district" name="district" value="Bình Chánh" />
+                                    </div>
+                                    <div class="col-6 col-md-6 mb-1">
+                                        <label class="form-label" for="ward">Xã/Phường</label>
+                                        <input type="text" class="form-control" id="ward" name="ward" value="An Phú Tây" />
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="address">Địa chỉ</label>
+                                    <input type="text" class="form-control" id="address" name="address" value="Số nhà 39, Đường S9" />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountPhoneNumber">Phone Number</label>
+                                    <input type="text" class="form-control account-number-mask" id="accountPhoneNumber" name="phoneNumber" placeholder="Phone Number" value="457 657 1237" />
+                                </div>
+                                <div class="col-12 col-md-12 mb-1">
+                                    <label class="form-label" for="accountEmail">Email</label>
+                                    <input type="email" class="form-control" id="accountEmail" name="email" placeholder="Email" value="johndoe@gmail.com" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Edit User Modal -->
+
+</div>

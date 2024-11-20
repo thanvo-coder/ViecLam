@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Pro_htc\\DN_ViecLam_FE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\admin\\worktypes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\admin\\worktypes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\admin\\schools.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\admin\\schools.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\admin\\listuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\admin\\listuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\admin\\educations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\admin\\educations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\employee\\calendar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\employee\\calendar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\company\\company_intro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\company\\company_intro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\views\\company\\company_department.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\company\\company_department.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\configs\\permissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\configs\\permissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|d:\\pro_htc\\dn_vieclam_fe\\webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4018382A-8FE8-475F-A455-245F52619F0D}|WebUI\\WebUI.csproj|solutionrelative:webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\obj\\docs-jsonClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebUI\\obj\\docs-jsonClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkTypes.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Admin\\WorkTypes.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Admin\\WorkTypes.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Admin\\WorkTypes.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Admin\\WorkTypes.cshtml",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAKEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T08:04:53.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Schools.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Admin\\Schools.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Admin\\Schools.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Admin\\Schools.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Admin\\Schools.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T08:04:52.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T08:04:50.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListUser.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Admin\\ListUser.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Admin\\ListUser.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Admin\\ListUser.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Admin\\ListUser.cshtml",
+              "ViewState": "AQIAALoAAAAAAAAAAAAAAMcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T07:41:43.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Educations.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Admin\\Educations.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Admin\\Educations.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Admin\\Educations.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Admin\\Educations.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAJ0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T07:41:38.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAF8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T07:41:22.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "WebUI\\Program.cs",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Program.cs",
+              "RelativeToolTip": "WebUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:33:44.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T07:41:18.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T07:41:18.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Calendar.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Employee\\Calendar.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Employee\\Calendar.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Employee\\Calendar.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Employee\\Calendar.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T07:41:09.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Company_intro.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Company\\Company_intro.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Company\\Company_intro.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Company\\Company_intro.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Company\\Company_intro.cshtml",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAGAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T07:40:29.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Company_department.cshtml",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Company\\Company_department.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Company\\Company_department.cshtml",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Views\\Company\\Company_department.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Company\\Company_department.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T07:38:15.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PermissionHandler.cs",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Configs\\PermissionHandler.cs",
+              "RelativeDocumentMoniker": "WebUI\\Configs\\PermissionHandler.cs",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Configs\\PermissionHandler.cs",
+              "RelativeToolTip": "WebUI\\Configs\\PermissionHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:36:36.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebUI\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:36:01.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebUI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebUI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:35:38.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WebUI.csproj",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\WebUI.csproj",
+              "RelativeDocumentMoniker": "WebUI\\WebUI.csproj",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\WebUI.csproj",
+              "RelativeToolTip": "WebUI\\WebUI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-19T01:58:58.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebUI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAxwCkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:34:24.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "WebUI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAmwC8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:34:23.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebUI\\appsettings.json",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\appsettings.json",
+              "RelativeToolTip": "WebUI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-18T03:33:45.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "docs-jsonClient.cs",
+              "DocumentMoniker": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\obj\\docs-jsonClient.cs",
+              "RelativeDocumentMoniker": "WebUI\\obj\\docs-jsonClient.cs",
+              "ToolTip": "D:\\Pro_htc\\DN_ViecLam_FE\\WebUI\\obj\\docs-jsonClient.cs",
+              "RelativeToolTip": "WebUI\\obj\\docs-jsonClient.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAswEQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:16:23.091Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

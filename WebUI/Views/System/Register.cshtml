@@ -1,0 +1,641 @@
+﻿@{
+    Layout = "";
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html class="loading semi-dark-layout" lang="en" data-layout="semi-dark-layout" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Register Page - HTC</title>
+    <link rel="apple-touch-icon" href="~/app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="~/app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/vendors.min.css">
+    <!-- END: Vendor CSS-->
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/themes/semi-dark-layout.css">
+
+
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css//forms/wizard/bs-stepper.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/plugins/forms/pickers/form-pickadate.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/plugins/forms/form-wizard.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/plugins/extensions/ext-component-toastr.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/plugins/forms/form-number-input.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/forms/select/select2.min.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/plugins/forms/form-validation.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/pages/authentication.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/plugins/forms/form-wizard.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/forms/wizard/bs-stepper.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/forms/select/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <!-- END: Page CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <!-- END: Custom CSS-->
+    <style>
+        .nav-pills-ntd .nav-link {
+            overflow: hidden;
+            color: #34a1c2;
+            border-radius: 0;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-right: 1px solid;
+            flex: 1;
+        }
+
+        .nav-pills-ntd .nav-item {
+            display: flex;
+            flex: 1 1 auto;
+        }
+
+        .nav-pills-ntd {
+            background: #fff;
+            border: 1px solid #34a1c2;
+            overflow: hidden;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+            .nav-pills-ntd .nav-link.active {
+                background: #34a1c2;
+                color: #fff;
+                border: none;
+                border-radius: 0;
+            }
+    </style>
+</head>
+<!-- END: Head-->
+<!-- BEGIN: Body-->
+<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="blank-page">
+    <!-- BEGIN: Content-->
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+            <div class="content-header row">
+            </div>
+            <div class="content-body">
+                <div class="auth-wrapper auth-basic px-2">
+                    <div class="auth-inner my-2">
+                        <!-- Register basic -->
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <a href="index.html" class="brand-logo">
+                                    <svg viewbox="0 0 139 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="28">
+                                        <defs>
+                                            <lineargradient id="linearGradient-1" x1="100%" y1="10.5120544%" x2="50%" y2="89.4879456%">
+                                                <stop stop-color="#000000" offset="0%"></stop>
+                                                <stop stop-color="#FFFFFF" offset="100%"></stop>
+                                            </lineargradient>
+                                            <lineargradient id="linearGradient-2" x1="64.0437835%" y1="46.3276743%" x2="37.373316%" y2="100%">
+                                                <stop stop-color="#EEEEEE" stop-opacity="0" offset="0%"></stop>
+                                                <stop stop-color="#FFFFFF" offset="100%"></stop>
+                                            </lineargradient>
+                                        </defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Artboard" transform="translate(-400.000000, -178.000000)">
+                                                <g id="Group" transform="translate(400.000000, 178.000000)">
+                                                    <path class="text-info" id="Path" d="M-5.68434189e-14,2.84217094e-14 L39.1816085,2.84217094e-14 L69.3453773,32.2519224 L101.428699,2.84217094e-14 L138.784583,2.84217094e-14 L138.784199,29.8015838 C137.958931,37.3510206 135.784352,42.5567762 132.260463,45.4188507 C128.736573,48.2809251 112.33867,64.5239941 83.0667527,94.1480575 L56.2750821,94.1480575 L6.71554594,44.4188507 C2.46876683,39.9813776 0.345377275,35.1089553 0.345377275,29.8015838 C0.345377275,24.4942122 0.230251516,14.560351 -5.68434189e-14,2.84217094e-14 Z" style="fill: currentColor"></path>
+                                                    <path id="Path1" d="M69.3453773,32.2519224 L101.428699,1.42108547e-14 L138.784583,1.42108547e-14 L138.784199,29.8015838 C137.958931,37.3510206 135.784352,42.5567762 132.260463,45.4188507 C128.736573,48.2809251 112.33867,64.5239941 83.0667527,94.1480575 L56.2750821,94.1480575 L32.8435758,70.5039241 L69.3453773,32.2519224 Z" fill="url(#linearGradient-1)" opacity="0.2"></path>
+                                                    <polygon id="Path-2" fill="#000000" opacity="0.049999997" points="69.3922914 32.4202615 32.8435758 70.5039241 54.0490008 16.1851325"></polygon>
+                                                    <polygon id="Path-21" fill="#000000" opacity="0.099999994" points="69.3922914 32.4202615 32.8435758 70.5039241 58.3683556 20.7402338"></polygon>
+                                                    <polygon id="Path-3" fill="url(#linearGradient-2)" opacity="0.099999994" points="101.428699 0 83.0667527 94.1480575 130.378721 47.0740288"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <h2 class="brand-text text-info ms-1">CVIDPRO</h2>
+                                </a>
+
+                                <h4 class="card-title mb-1 px-2">ĐĂNG KÝ</h4>
+
+                                <div class="container mt-2">
+                                    <!-- Tab Navigation -->
+                                    <ul class="nav nav-tabs" id="registerTab" role="tablist">
+                                        <!-- Tab Người tìm việc -->
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active fw-bold" id="jobseeker-tab" data-bs-toggle="tab" data-bs-target="#jobseeker-form" type="button" role="tab" aria-controls="jobseeker-form" aria-selected="true">Người Tìm Việc</button>
+                                        </li>
+                                        <!-- Tab Nhà tuyển dụng -->
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link fw-bold" id="employer-tab" data-bs-toggle="tab" data-bs-target="#employer-form" type="button" role="tab" aria-controls="employer-form" aria-selected="false">Nhà Tuyển Dụng</button>
+                                        </li>
+                                    </ul>
+
+                                    <!-- Tab Content -->
+                                    <div class="tab-content" id="registerTabContent">
+                                        <!-- Job Seeker Form -->
+                                        <div class="tab-pane fade show active" id="jobseeker-form" role="tabpanel" aria-labelledby="jobseeker-tab">
+                                            <form class="auth-register-form mt-2 row" action="index.html" method="POST">
+                                                <div class="mb-1 col-md-6 col-12">
+                                                    <label for="register-firstname" class="form-label fw-bold">Họ và tên lót <span class="text-danger">*</span></label>
+                                                    <div class="input-group input-group-merge">
+                                                        <span class="input-group-text"><i data-feather="user"></i></span>
+                                                        <input type="text" class="form-control" id="register-firstname" name="register-firstname" placeholder="Nhập họ và tên lót" aria-describedby="register-firstname" tabindex="1" autofocus required />
+                                                    </div>
+                                                </div>
+                                                <div class="mb-1 col-md-6 col-12">
+                                                    <label for="register-lastname" class="form-label fw-bold">Tên <span class="text-danger">*</span></label>
+                                                    <div class="input-group input-group-merge">
+                                                        <span class="input-group-text"><i data-feather="user"></i></span>
+                                                        <input type="text" class="form-control" id="register-lastname" name="register-lastname" placeholder="Nhập tên" aria-describedby="register-lastname" tabindex="1" autofocus required />
+                                                    </div>
+                                                </div>
+
+                                                <div class="mb-1 col-md-12 col-12">
+                                                    <label for="register-username" class="form-label fw-bold">Tài khoản đăng nhập <span class="text-danger">*</span></label>
+                                                    <div class="input-group input-group-merge">
+                                                        <span class="input-group-text"><i data-feather="smartphone"></i></span>
+                                                        <input type="text" class="form-control" id="register-username" name="register-username" placeholder="Nhập số điện thoại" aria-describedby="register-username" tabindex="1" autofocus />
+                                                    </div>
+                                                </div>
+
+                                                <div class="mb-1 col-md-12 col-12">
+                                                    <label for="register-email" class="form-label fw-bold">Email <span class="text-danger">*</span></label>
+                                                    <div class="input-group input-group-merge">
+                                                        <span class="input-group-text"><i data-feather="mail"></i></span>
+                                                        <input type="email" class="form-control" id="register-email" name="register-email" placeholder="Nhập email" aria-describedby="register-email" tabindex="2" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="mb-1 col-md-12 col-12">
+                                                    <label for="register-password" class="form-label fw-bold">Mật khẩu <span class="text-danger">*</span></label>
+                                                    <div class="input-group input-group-merge form-password-toggle">
+                                                        <span class="input-group-item"><i data-feather="lock"></i></span>
+                                                        <input type="password" class="form-control form-control-merge" id="register-password" name="register-password" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="register-password" tabindex="3" />
+                                                        <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="mb-1 col-md-12 col-12">
+                                                    <label for="comfirm-password" class="form-label fw-bold">Nhập lại mật khẩu <span class="text-danger">*</span></label>
+                                                    <div class="input-group input-group-merge form-password-toggle">
+                                                        <span class="input-group-item"><i data-feather="lock"></i></span>
+                                                        <input type="password" class="form-control form-control-merge" id="comfirm-password" name="comfirm-password" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="register-password" tabindex="3" required />
+                                                        <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="mb-1 col-md-12 col-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" id="register-privacy-policy" tabindex="4" />
+                                                        <label class="form-check-label" for="register-privacy-policy">
+                                                            Đồng ý với các <a href="#">điều khoản cam kết bảo mật thông tin</a>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <button class="btn btn-info w-100" tabindex="5">Đăng ký</button>
+                                            </form>
+                                        </div>
+
+                                        <!-- Employer Form with Sub-Tabs -->
+                                        <div class="tab-pane fade" id="employer-form" role="tabpanel" aria-labelledby="employer-tab">
+                                            <!-- Sub Tabs for Employer -->
+                                            <ul class="nav nav-pills-ntd mt-2 d-flex justify-content-center" id="employerSubTab" role="tablist">
+                                                <!-- Sub Tabs for Doanh Nghiệp -->
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active fw-bold border-0" id="business-tab" data-bs-toggle="tab" data-bs-target="#business-form" type="button" role="tab" aria-controls="business-form" aria-selected="true">Doanh Nghiệp</button>
+                                                </li>
+                                                <!-- Sub Tabs for Kinh doanh cá thể -->
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link fw-bold border-0" id="individual-tab" data-bs-toggle="tab" data-bs-target="#individual-form" type="button" role="tab" aria-controls="individual-form" aria-selected="false">Kinh Doanh Cá Thể</button>
+                                                </li>
+                                            </ul>
+
+                                            <!-- Sub Tab Content for Doanh nghiệp -->
+                                            <div class="tab-content mt-2" id="employerSubTabContent">
+                                                <!-- Tab Pane for Doanh Nghiệp -->
+                                                <div class="tab-pane fade show active" id="business-form" role="tabpanel" aria-labelledby="business-tab">
+                                                    <!-- Nội dung của tab Doanh Nghiệp -->
+
+                                                    <div class="bs-stepper checkout-tab-steps">
+                                                        <div class="bs-stepper-header">
+                                                            <div class="step crossed" data-target="#step1-business" role="tab" id="step1-business-trigger">
+                                                                <button type="button" class="step-trigger" aria-selected="false">
+                                                                    <span class="bs-stepper-label">
+                                                                        <span class="bs-stepper-title">Thông tin đăng nhập</span>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="line">
+                                                                <i data-feather='chevrons-right'></i>
+                                                            </div>
+                                                            <div class="step crossed" data-target="#step2-business" role="tab" id="step2-business-trigger">
+                                                                <button type="button" class="step-trigger" aria-selected="false">
+                                                                    <span class="bs-stepper-label">
+                                                                        <span class="bs-stepper-title">Thông tin doanh nghiệp</span>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="line">
+                                                                <i data-feather='chevrons-right'></i>
+                                                            </div>
+                                                            <div class="step active" data-target="#step3-business" role="tab" id="step3-business-trigger">
+                                                                <button type="button" class="step-trigger" aria-selected="true">
+                                                                    <span class="bs-stepper-label">
+                                                                        <span class="bs-stepper-title">Thông tin người đại diện</span>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="bs-stepper-content">
+                                                            <div id="step1-business" class="content" role="tabpanel" aria-labelledby="step1-business-trigger">
+                                                                <form id="checkout-info" class="list-view product-checkout">
+                                                                    <div class="mb-1 col-md-12 col-12">
+                                                                        <label for="business-company-name" class="form-label fw-bold">Tài khoản đăng nhập <span class="text-danger">*</span></label>
+                                                                        <div class="input-group input-group-merge">
+                                                                            <span class="input-group-text"><i data-feather="mail"></i></span>
+                                                                            <input type="text" class="form-control" id="business-company-name" name="business-company-name" required placeholder="Nhập mã số thuế">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="mb-1 col-md-12 col-12">
+                                                                        <label for="register-password" class="form-label fw-bold">Mật khẩu <span class="text-danger">*</span></label>
+                                                                        <div class="input-group input-group-merge form-password-toggle">
+                                                                            <span class="input-group-item"><i data-feather="lock"></i></span>
+                                                                            <input type="password" class="form-control form-control-merge" id="register-password" name="register-password" required placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="register-password" tabindex="3" />
+                                                                            <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="mb-1 col-md-12 col-12">
+                                                                        <label for="confirm-password" class="form-label fw-bold">Nhập lại mật khẩu <span class="text-danger">*</span></label>
+                                                                        <div class="input-group input-group-merge form-password-toggle">
+                                                                            <span class="input-group-item"><i data-feather="lock"></i></span>
+                                                                            <input type="password" class="form-control form-control-merge" id="confirm-password" name="confirm-password" required placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="confirm-password" tabindex="3" />
+                                                                            <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </form>
+
+                                                                <div class="d-flex justify-content-between">
+                                                                    <button class="btn btn-outline-secondary btn-prev w-50 me-2" disabled>
+                                                                        <i data-feather="arrow-left" class="align-middle me-sm-25 me-0"></i>
+                                                                        <span class="align-middle d-sm-inline-block d-none">Quay lại</span>
+                                                                    </button>
+                                                                    <button class="btn btn-info btn-next w-50 ms-2">
+                                                                        <span class="align-middle d-sm-inline-block d-none">Tiếp tục</span>
+                                                                        <i data-feather="arrow-right" class="align-middle ms-sm-25 ms-0"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div id="step2-business" class="content" role="tabpanel" aria-labelledby="step2-business-trigger">
+                                                                <form id="checkout-info" class="list-view product-checkout">
+                                                                    <div class="row">
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <label for="business-company-name" class="form-label fw-bold">Tên doanh nghiệp <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="briefcase"></i></span>
+                                                                                <input type="text" class="form-control" id="business-company-name" name="business-company-name" required placeholder="Nhập tên doanh nghiệp">
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <label for="business-address" class="form-label fw-bold">Địa chỉ <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="map-pin"></i></span>
+                                                                                <input type="text" class="form-control" id="business-address" name="business-address" required placeholder="Nhập địa chỉ">
+                                                                            </div>
+                                                                        </div>
+
+
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <label for="business-type" class="form-label fw-bold">Loại hình doanh nghiệp <span class="text-danger">*</span></label>
+                                                                            <select class="form-select" id="business-type" required>
+                                                                                <option value="" disabled selected>Chọn loại hình doanh nghiệp</option>
+                                                                                <option value="doanh-nghiep-tu-nhan">Doanh nghiệp tư nhân</option>
+                                                                                <option value="cong-ty-tnhh">Công ty TNHH</option>
+                                                                                <option value="cong-ty-co-phan">Công ty cổ phần</option>
+                                                                                <option value="doanh-nghiep-nha-nuoc">Doanh nghiệp nhà nước</option>
+                                                                            </select>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <label for="business-activity-field" class="form-label fw-bold">Lĩnh vực hoạt động <span class="text-danger">*</span></label>
+                                                                            <select class="form-select select2" multiple>
+                                                                                <option value="thuong-mai">Thương mại</option>
+                                                                                <option value="dich-vu">Dịch vụ</option>
+                                                                                <option value="san-xuat">Sản xuất</option>
+                                                                                <option value="xay-dung">Xây dựng</option>
+                                                                                <option value="cong-nghe-thong-tin">Công nghệ thông tin</option>
+                                                                            </select>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <label for="business-file" class="form-label fw-bold">Giấy phép đăng ký kinh doanh</label>
+                                                                            <input type="file" class="form-control" id="business-file" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                                <div class="d-flex justify-content-between">
+                                                                    <button class="btn btn-info btn-prev w-50 me-2">
+                                                                        <i data-feather="arrow-left" class="align-middle me-sm-25 me-0"></i>
+                                                                        <span class="align-middle d-sm-inline-block d-none">Quay lại</span>
+                                                                    </button>
+                                                                    <button class="btn btn-info btn-next w-50 ms-2">
+                                                                        <span class="align-middle d-sm-inline-block d-none">Tiếp tục</span>
+                                                                        <i data-feather="arrow-right" class="align-middle ms-sm-25 ms-0"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div id="step3-business" class="content active dstepper-block" role="tabpanel" aria-labelledby="step3-business-trigger">
+                                                                <form id="checkout-info" class="list-view product-checkout" onsubmit="return false;">
+                                                                    <div class="row">
+                                                                        <div class="mb-1 col-md-6 col-12">
+                                                                            <label for="register-firstname" class="form-label fw-bold">Họ và tên lót <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="user"></i></span>
+                                                                                <input type="text" class="form-control" id="register-firstname" name="register-firstname" placeholder="Nhập họ và tên lót" aria-describedby="register-firstname" tabindex="1" autofocus />
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-6 col-12">
+                                                                            <label for="register-lastname" class="form-label fw-bold">Tên <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="user"></i></span>
+                                                                                <input type="text" class="form-control" id="register-lastname" name="register-lastname" placeholder="Nhập tên" aria-describedby="register-lastname" tabindex="1" autofocus />
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-6 col-12">
+                                                                            <label for="register-phone" class="form-label fw-bold">Số điện thoại <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="smartphone"></i></span>
+                                                                                <input type="text" class="form-control" id="register-phone" name="register-phone" placeholder="Nhập số điện thoại" aria-describedby="register-phone" tabindex="1" autofocus />
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-6 col-12">
+                                                                            <label for="register-position" class="form-label fw-bold">Chức vụ <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="briefcase"></i></span>
+                                                                                <input type="text" class="form-control" id="register-position" name="register-position" placeholder="Nhập chức vụ" aria-describedby="register-position" tabindex="1" autofocus />
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <label for="register-email" class="form-label fw-bold">Email <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="mail"></i></span>
+                                                                                <input type="email" class="form-control" id="register-email" name="register-email" placeholder="Nhập email" aria-describedby="register-email" tabindex="2" />
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </form>
+                                                                <div class="d-flex justify-content-between">
+                                                                    <button class="btn btn-info btn-prev w-50 me-2">
+                                                                        <i data-feather="arrow-left" class="align-middle me-sm-25 me-0"></i>
+                                                                        <span class="align-middle d-sm-inline-block d-none">Quay lại</span>
+                                                                    </button>
+                                                                    <button class="btn btn-info btn-submit w-50 ms-2">
+                                                                        <span class="align-middle d-sm-inline-block d-none">Đăng ký</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End -->
+                                                </div>
+
+                                                <!-- Individual Kinh doanh cá thể -->
+                                                <div class="tab-pane fade" id="individual-form" role="tabpanel" aria-labelledby="individual-tab">
+                                                    <!-- Horizontal Wizard -->
+                                                    <section class="horizontal-wizard">
+                                                        <div class="bs-stepper horizontal-wizard-example">
+                                                            <div class="bs-stepper-header" role="tablist">
+                                                                <div class="step" data-target="#account-details" role="tab" id="account-details-trigger">
+                                                                    <button type="button" class="step-trigger">
+                                                                        <span class="bs-stepper-label">
+                                                                            <span class="bs-stepper-title">Thông tin đăng nhập</span>
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                                <div class="line">
+                                                                    <i data-feather="chevrons-right" class="font-medium-2"></i>
+                                                                </div>
+                                                                <div class="step" data-target="#social-links" role="tab" id="social-links-trigger">
+                                                                    <button type="button" class="step-trigger">
+                                                                        <span class="bs-stepper-label">
+                                                                            <span class="bs-stepper-title">Thông tin cơ sở kinh doanh</span>
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bs-stepper-content">
+                                                                <div id="account-details" class="content" role="tabpanel" aria-labelledby="account-details-trigger">
+                                                                    <form class="auth-register-form row" id="register-form">
+                                                                        <div class="mb-1 col-md-6 col-12">
+                                                                            <label for="register-firstname" class="form-label fw-bold">Họ và tên lót <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="user"></i></span>
+                                                                                <input type="text" class="form-control" id="register-firstname" name="register-firstname" placeholder="Nhập họ và tên lót" required />
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-6 col-12">
+                                                                            <label for="register-lastname" class="form-label fw-bold">Tên <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="user"></i></span>
+                                                                                <input type="text" class="form-control" id="register-lastname" name="register-lastname" placeholder="Nhập tên" required />
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <label for="register-username" class="form-label fw-bold">Tài khoản đăng nhập <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="user"></i></span>
+                                                                                <input type="text" class="form-control" id="register-username" name="register-username" placeholder="Nhập tài khoản đăng nhập" required />
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <label for="register-email" class="form-label fw-bold">Email <span class="text-danger">*</span></label>
+                                                                            <div class="input-group">
+                                                                                <span class="input-group-text"><i data-feather="mail"></i></span>
+                                                                                <input type="email" class="form-control" id="register-email" name="register-email" placeholder="Nhập email" required />
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <label for="register-password" class="form-label fw-bold">Mật khẩu <span class="text-danger">*</span></label>
+                                                                            <div class="input-group input-group-merge form-password-toggle">
+                                                                                <span class="input-group-item"><i data-feather="lock"></i></span>
+                                                                                <input type="password" class="form-control" id="register-password" name="register-password" placeholder="Nhập mật khẩu" required />
+                                                                                <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <label for="register-confirm-password" class="form-label fw-bold">Nhập lại mật khẩu <span class="text-danger">*</span></label>
+                                                                            <div class="input-group input-group-merge form-password-toggle">
+                                                                                <span class="input-group-item"><i data-feather="lock"></i></span>
+                                                                                <input type="password" class="form-control" id="register-confirm-password" name="register-confirm-password" placeholder="Nhập lại mật khẩu" required />
+                                                                                <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </form>
+                                                                    <div class="d-flex justify-content-between">
+                                                                        <button class="btn btn-outline-secondary btn-prev w-50 me-2" disabled>
+                                                                            <i data-feather="arrow-left" class="align-middle me-sm-25 me-0"></i>
+                                                                            <span class="align-middle d-sm-inline-block d-none">Quay lại</span>
+                                                                        </button>
+                                                                        <button class="btn btn-info btn-next w-50 ms-2">
+                                                                            <span class="align-middle d-sm-inline-block d-none">Tiếp tục</span>
+                                                                            <i data-feather="arrow-right" class="align-middle ms-sm-25 ms-0"></i>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div id="social-links" class="content" role="tabpanel" aria-labelledby="social-links-trigger">
+
+                                                                    <form class="auth-register-form">
+                                                                        <div class="row">
+                                                                            <div class="col-md-12 mb-1">
+                                                                                <label class="form-label" for="select2-multiple">Loại hình kinh doanh <span class="text-danger">*</span></label>
+                                                                                <select class="select2 form-select" id="select2-multiple" multiple>
+                                                                                    <option value="doanh-nghiep">Doanh nghiệp</option>
+                                                                                    <option value="ca-nhan">Cá nhân</option>
+                                                                                    <option value="hop-tac-xa">Hợp tác xã</option>
+                                                                                    <option value="cong-ty-co-phan">Công ty cổ phần</option>
+                                                                                    <option value="cong-ty-tnhh">Công ty TNHH</option>
+                                                                                </select>
+                                                                            </div>
+                                                                            <div class="mb-1 col-md-12">
+                                                                                <label for="province" class="form-label fw-bold">Tỉnh/thành phố <span class="text-danger">*</span></label>
+                                                                                <select class="form-select" id="province" name="province" required>
+                                                                                    <option value="">Chọn tỉnh/thành phố</option>
+                                                                                    <!-- Add options here -->
+                                                                                </select>
+                                                                            </div>
+                                                                            <div class="mb-1 col-md-12">
+                                                                                <label for="district" class="form-label fw-bold">Quận/huyện <span class="text-danger">*</span></label>
+                                                                                <select class="form-select" id="district" name="district" required disabled>
+                                                                                    <option value="">Chọn Quận/huyện</option>
+                                                                                    <!-- Add options here -->
+                                                                                </select>
+                                                                            </div>
+                                                                            <div class="mb-1 col-md-12">
+                                                                                <label for="ward" class="form-label fw-bold">Phường/xã <span class="text-danger">*</span></label>
+                                                                                <select class="form-select" id="ward" name="ward" required disabled>
+                                                                                    <option value="">Chọn Phường/xã</option>
+                                                                                    <!-- Add options here -->
+                                                                                </select>
+                                                                            </div>
+                                                                            <div class="mb-1 col-md-12">
+                                                                                <label for="address" class="form-label fw-bold">Địa chỉ <span class="text-danger">*</span></label>
+                                                                                <input type="text" class="form-control" id="address" name="address" placeholder="Nhập số nhà, tên đường" required />
+                                                                            </div>
+                                                                            <div class="mb-1 col-md-12">
+                                                                                <label for="business-license" class="form-label fw-bold">Giấy phép đăng ký kinh doanh</label>
+                                                                                <input type="file" class="form-control" id="business-license" name="business-license" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="mb-1 col-md-12 col-12">
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="register-privacy-policy" tabindex="4" />
+                                                                                <label class="form-check-label" for="register-privacy-policy">
+                                                                                    Đồng ý với các <a href="#">điều khoản cam kết bảo mật thông tin</a>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                    <div class="d-flex justify-content-between">
+                                                                        <button class="btn btn-info btn-prev w-50 me-2">
+                                                                            <i data-feather="arrow-left" class="align-middle me-sm-25 me-0"></i>
+                                                                            <span class="align-middle d-sm-inline-block d-none">Quay lại</span>
+                                                                        </button>
+                                                                        <button class="btn btn-info btn-submit w-50 ms-2">
+                                                                            <span class="align-middle d-sm-inline-block d-none">Đăng ký</span>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                    <!-- /Horizontal Wizard -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="text-center mt-2">
+                                    <span>Bạn đã có tài khoản?</span>
+                                    <a asp-action="Login" asp-controller="System">
+                                        <span>Đăng nhập</span>
+                                    </a>
+                                </p>
+
+
+                            </div>
+                        </div>
+                        <!-- /Register basic -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+
+    <script src="~/app-assets/vendors/js/vendors.min.js"></script>
+
+    <script src="~/app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+
+    <script src="~/app-assets/js/core/app-menu.js"></script>
+    <script src="~/app-assets/js/core/app.js"></script>
+
+    <script src="~/app-assets/js/scripts/pages/auth-register.js"></script>
+
+    <script src="~/app-assets/vendors/js/forms/wizard/bs-stepper.min.js"></script>
+    <script src="~/app-assets/vendors/js/forms/spinner/jquery.bootstrap-touchspin.js"></script>
+    <script src="~/app-assets/vendors/js/extensions/toastr.min.js"></script>
+
+    <script src="~/app-assets/js/scripts/pages/app-ecommerce-checkout.js"></script>
+    <script src="~/app-assets/js/scripts/forms/form-wizard.js"></script>
+    <script src="~/app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+    <script src="~/app-assets/js/scripts/forms/form-select2.js"></script>
+    <script src="~/app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
+</body>
+<!-- END: Body-->
+</html>

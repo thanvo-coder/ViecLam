@@ -1,0 +1,618 @@
+﻿@{
+    Layout = "_LayoutEmployee";
+    ViewData["Title"] = "Resume";
+}
+
+<!-- BEGIN: Content-->
+<div class="content-body">
+    <!-- INFO -->
+    <div class="row">
+        <div class="card border-main p-0 mb-0">
+            <div class="card-header d-flex flex-column align-items-center bg-main">
+                <h4 class="card-title text-info text-uppercase fs-1 fw-bolder">TRẦN HIỆP</h4>
+                <p class="mb-0 fst-italic fs-3">CVID903027848</p>
+            </div>
+            <div class="card-body py-2 my-25">
+                <div class="d-flex align-items-start">
+                    <!-- Ảnh -->
+                    <a href="#" class="me-25" style="width: 160px !important;height: 220px !important;">
+                        <img src="/app-assets/images/portrait/small/avatar-s-11.jpg" id="account-upload-img" class="uploadedAvatar rounded me-50 w-100 h-100" alt="profile image" style="object-fit: cover;" />
+                    </a>
+
+                    <!-- Thông tin cá nhân -->
+                    <div class="ms-1">
+                        <div class="card m-0">
+                            <div class="card-header">
+                                <h4 class="card-title text-info text-uppercase fs-3 fw-bolder">THÔNG TIN CÁ NHÂN</h4>
+                            </div>
+                            <div class="card-body py-0">
+                                <p><strong>Ngày sinh:</strong> <span class="text-info">21/04/1976</span></p>
+                                <p><strong>Giới tính:</strong> <span class="text-info">Nam</span></p>
+                                <p><strong>Địa chỉ:</strong> <span class="text-info">33 đường S9, An Phú Tây, Bình Chánh, TP.Hồ Chí Minh</span></p>
+                                <p><strong>Số điện thoại:</strong> <span class="text-info">0903027848</span></p>
+                                <p><strong>Email:</strong> <span class="text-info">hieptran@glowpacific.com</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card-header">
+            <div class="w-100 text-center text-uppercase fw-bolder text-info fs-1 fw-bolder">Quá trình học tập và làm việc</div>
+        </div>
+    </div>
+    <!-- Thời gian không làm việc -->
+    <div class="row">
+        <div class="card border-main bg-main">
+            <div class="card-header py-2 my-25">
+                <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                        <div class="border-wrapper bg-white">
+                            <label class="fw-bolder">Từ</label>
+                            <input class="borderless-input" type="text" placeholder="MM/YYYY" value="09/1994">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center ms-2">
+                        <div class="border-wrapper bg-white">
+                            <label class="fw-bolder">Đến</label>
+                            <input class="borderless-input" type="text" placeholder="MM/YYYY" value="12/2023">
+                        </div>
+                    </div>
+                    <div class="text-center text-uppercase ms-2 fw-bold text-info fs-3 fw-bolder">Thời gian không làm việc</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ĐH BKĐN -->
+    <div class="row">
+        <div class="card border-main p-0">
+            <div class="card-header bg-main py-2 border-bottom">
+                <div class="d-flex align-items-center px-1">
+                    <div class="d-flex align-items-center">
+                        <div class="border-wrapper bg-white">
+                            <label class="fw-bolder">Từ</label>
+                            <input class="borderless-input" type="text" placeholder="MM/YYYY" value="09/1994">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center ms-2">
+                        <div class="border-wrapper bg-white">
+                            <label class="fw-bolder">Đến</label>
+                            <input class="borderless-input" type="text" placeholder="MM/YYYY" value="12/2023">
+                        </div>
+                    </div>
+                    <div class="text-center text-uppercase ms-2 fw-bold text-info fs-3 fw-bolder">HỌC TẠI Trường Đại học Bách khoa – ĐH Đà Nẵng</div>
+                </div>
+            </div>
+            <div class="card mb-0">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper">
+                                <label class="fw-bolder label">Chuyên ngành học</label>
+                                <span class="text-value">Kỹ thuật nhiệt</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper">
+                                <label class="fw-bolder label">Cấp bậc đào tạo</label>
+                                <span class="text-value">Đại học</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper">
+                                <label class="fw-bolder label">Chức danh bằng cấp</label>
+                                <span class="text-value">Kỹ sư</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper">
+                                <label class="fw-bolder label">Loại hình đào tạo</label>
+                                <span class="text-value">Chính quy</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper">
+                                <label class="fw-bolder label">Tình trạng tốt nghiệp</label>
+                                <span class="text-value">Đã tốt nghiệp</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper d-flex align-items-center">
+                                <label class="fw-bolder label">Kết quả xếp loại</label>
+                                <div class="d-flex align-items-center text-value p-0">
+                                    <span class="text-value">Xuất sắc</span>
+                                    <button type="button" class="btn btn-link p-0" id="custom-image">Xem ảnh</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- LÀM VIỆC TẠI QQQQ -->
+    <div class="row">
+        <div class="card border-main p-0">
+            <div class="card-header bg-main py-2 border-bottom">
+                <div class="d-flex align-items-center px-1">
+                    <div class="d-flex align-items-center">
+                        <div class="border-wrapper bg-white">
+                            <label class="fw-bolder">Từ</label>
+                            <input class="borderless-input" type="text" placeholder="MM/YYYY" value="09/1994">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center ms-2">
+                        <div class="border-wrapper bg-white">
+                            <label class="fw-bolder">Đến</label>
+                            <input class="borderless-input" type="text" placeholder="MM/YYYY" value="12/2023">
+                        </div>
+                    </div>
+                    <div class="text-center text-uppercase ms-2 fw-bold text-info fs-3 fw-bolder">Làm việc tại ABC</div>
+                </div>
+                <div class="col-12 col-sm-12 mb-1 mt-1 px-1">
+                    <div class="border-wrapper bg-white">
+                        <label class="fw-bolder">Địa chỉ</label>
+                        <span>123</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-0">
+                <div class="card-body p-0">
+                    <section class="basic-timeline">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card mb-0">
+                                    <div class="card-body pb-0">
+                                        <ul class="timeline">
+                                            <li class="timeline-item">
+                                                <span class="timeline-point timeline-point-indicator"></span>
+                                                <div class="timeline-event">
+                                                    <div class="d-flex justify-content-between flex-sm-row flex-column mb-sm-0 mb-1">
+                                                        <h4 class="card-title text-info">Quá trình làm việc từ 09/1998 đến 11/2016</h4>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-1">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="border-wrapper bg-white">
+                                                                <label class="fw-bolder">Từ</label>
+                                                                <input class="borderless-input" type="text" placeholder="MM/YYYY" value="09/1994">
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center ms-2">
+                                                            <div class="border-wrapper bg-white">
+                                                                <label class="fw-bolder">Đến</label>
+                                                                <input class="borderless-input" type="text" placeholder="MM/YYYY" value="12/2023">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Chuyên ngành làm việc</label>
+                                                            <span class="text-value">Công nghệ thông tin</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Chức danh công việc</label>
+                                                            <span class="text-value">Kỹ sư phát triển front-end</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Lĩnh vực làm việc</label>
+                                                            <span class="text-value">Cơ sở dữ liệu</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Chức vụ công việc</label>
+                                                            <span class="text-value">Nhân viên</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Phòng ban/bộ phận làm việc</label>
+                                                            <span class="text-value">IT</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Công việc đã làm</label>
+                                                            <span class="text-value">Dev BE</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Loại hình và thời gian làm việc</label>
+                                                            <span class="text-value">Hành chính cố định</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Làm việc theo hình thức</label>
+                                                            <span class="text-value">Remote</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Loại hình hợp đồng lao động</label>
+                                                            <span class="text-value">Hợp đồng có thời hạn</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Địa chỉ</label>
+                                                            <span class="text-value">123 abc</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-12 mb-1">
+                                                        <div class="border-wrapper">
+                                                            <label class="fw-bolder label1">Kết quả</label>
+                                                            <span class="text-value">Trên mức đề ra</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="timeline-item">
+                                                <span class="timeline-point timeline-point-info timeline-point-indicator"></span>
+                                                <div class="timeline-event">
+                                                    <div class="d-flex justify-content-between align-items-center mb-50">
+                                                        <h4 class="card-title text-info mb-0">Đã nghỉ việc từ 11/2016</h4>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="card-footer bg-main py-2 border-top">
+                <div class="row px-1">
+                    <div class="col-12 col-sm-6 mb-1">
+                        <div class="border-wrapper bg-white">
+                            <label class="fw-bolder label">Hình thức nghỉ việc</label>
+                            <span class="text-value" id="major">Nghỉ theo mong muốn</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 mb-1">
+                        <div class="border-wrapper bg-white">
+                            <label class="fw-bolder label">Đơn xin nghỉ việc</label>
+                            <span class="text-value">Không có đơn nghỉ việc</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Thời gian không làm việc -->
+    <div class="row">
+        <div class="card border-main bg-main">
+            <div class="card-header py-2 my-25">
+                <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                        <div class="border-wrapper bg-white">
+                            <label class="fw-bolder">Từ</label>
+                            <input class="borderless-input" type="text" placeholder="MM/YYYY" value="09/1994">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center ms-2 form-check">
+                        <input type="checkbox" class="form-check-input me-2" id="toDate" checked>
+                        <label class="form-label mb-0 fw-bolder fs-5">Đến hiện tại</label>
+                    </div>
+                    <div class="text-center text-uppercase ms-2 fw-bold text-info fs-3 fw-bolder">Thời gian không làm việc</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cập nhật quá trình học tập và làm việc -->
+    <div class="row mb-3">
+        <div class="card-header p-0">
+            <button type="button" class="btn btn-info w-100 text-center text-uppercase fw-bolder text-info fs-3 fw-bolder py-2" data-bs-toggle="modal" data-bs-target="#twoFactorAuthModal">
+                <i class="bi bi-hand-index-thumb" style="transform: rotate(90deg);"></i>
+                <span class="btn-blinking">Cập nhật quá trình học tập và làm việc</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- two modal -->
+    <div class="modal fade" id="twoFactorAuthModal" tabindex="-1" aria-labelledby="twoFactorAuthTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg two-factor-auth">
+            <div class="modal-content">
+                <div class="modal-header bg-transparent">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-5 px-sm-5 mx-50">
+                    <h1 class="text-center mb-1 text-uppercase fs-3" id="twoFactorAuthTitle">Cập nhật quá trình học tập và làm việc</h1>
+                    <div class="d-flex align-items-center justify-content-center mb-2">
+                        <div class="d-flex align-items-center">
+                            <label class="form-label mb-0 me-2 fw-bolder fs-5">Từ</label>
+                            <input type="date" class="form-control" placeholder="11/2024" value="11/2024">
+                        </div>
+                        <div class="text-center ms-2 fw-bold fs-4 fw-bolder">Thời gian tiếp theo bạn sẽ làm gì?</div>
+                    </div>
+
+                    <div class="custom-options-checkable d-flex align-items-center">
+                        <input class="custom-option-item-check" type="radio" name="twoFactorAuthRadio" id="twoFactorAuthApps" value="apps-auth" checked />
+                        <label for="twoFactorAuthApps" class="custom-option-item p-2 text-center">
+                            Học tập
+                        </label>
+                        <input class="custom-option-item-check" type="radio" name="twoFactorAuthRadio" value="sms-auth" id="twoFactorAuthSms" />
+                        <label for="twoFactorAuthSms" class="custom-option-item p-2 text-center">
+                            Làm việc
+                        </label>
+                    </div>
+                    <button id="nextStepAuth" class="btn btn-info float-end mt-3">
+                        <span class="me-50">Continue</span>
+                        <i data-feather="chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / two modal -->
+    <!-- Học tập modal -->
+    <div class="modal fade" id="twoFactorAuthAppsModal" tabindex="-1" aria-labelledby="twoFactorAuthAppsTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg two-factor-auth-apps">
+            <div class="modal-content">
+                <div class="modal-header bg-transparent">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-5 px-sm-5 mx-50">
+                    <h1 class="text-center mb-2 pb-50" id="educationUpdateTitle">Cập nhật quá trình học tập</h1>
+
+                    <form class="row gy-3" onsubmit="return false">
+                        <!-- Trình độ học vấn -->
+                        <div class="col-12">
+                            <label for="educationLevel" class="form-label">Trình độ học vấn</label>
+                            <input type="text" class="form-control" id="educationLevel" placeholder="Ví dụ: Đại học, Thạc sĩ" />
+                        </div>
+
+                        <!-- Cấp bậc -->
+                        <div class="col-12">
+                            <label for="educationRank" class="form-label">Cấp bậc</label>
+                            <input type="text" class="form-control" id="educationRank" placeholder="Ví dụ: Sinh viên, Cử nhân" />
+                        </div>
+
+                        <!-- Trường -->
+                        <div class="col-12">
+                            <label for="schoolName" class="form-label">Trường</label>
+                            <input type="text" class="form-control" id="schoolName" placeholder="Tên trường" />
+                        </div>
+
+                        <!-- Chuyên ngành học -->
+                        <div class="col-12">
+                            <label for="major" class="form-label">Chuyên ngành học</label>
+                            <input type="text" class="form-control" id="major" placeholder="Tên chuyên ngành" />
+                        </div>
+
+                        <!-- Thời gian học (Từ - Đến) -->
+                        <div class="col-12 col-sm-6">
+                            <label for="startDate" class="form-label">Từ</label>
+                            <input type="month" class="form-control" id="startDate" />
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <label for="endDate" class="form-label">Đến</label>
+                            <input type="month" class="form-control" id="endDate" />
+                        </div>
+
+                        <!-- Hiện tại đang học hay đã tốt nghiệp -->
+                        <div class="col-12">
+                            <label class="form-label">Tình trạng học tập</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="studyStatus" id="currentlyStudying" value="currentlyStudying">
+                                <label class="form-check-label" for="currentlyStudying">Đang học</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="studyStatus" id="graduated" value="graduated">
+                                <label class="form-check-label" for="graduated">Đã tốt nghiệp</label>
+                            </div>
+                        </div>
+
+                        <!-- Loại hình đào tạo -->
+                        <div class="col-12">
+                            <label for="educationType" class="form-label">Loại hình đào tạo</label>
+                            <input type="text" class="form-control" id="educationType" placeholder="Ví dụ: Chính quy, Tại chức" />
+                        </div>
+
+                        <!-- Xếp loại -->
+                        <div class="col-12">
+                            <label for="classification" class="form-label">Xếp loại</label>
+                            <input type="text" class="form-control" id="classification" placeholder="Ví dụ: Xuất sắc, Giỏi, Khá" />
+                        </div>
+
+                        <!-- Chức danh bằng cấp -->
+                        <div class="col-12">
+                            <label for="degreeTitle" class="form-label">Chức danh bằng cấp</label>
+                            <input type="text" class="form-control" id="degreeTitle" placeholder="Tên bằng cấp" />
+                        </div>
+
+                        <!-- Hình ảnh bằng cấp -->
+                        <div class="col-12">
+                            <label for="degreeImage" class="form-label">Hình ảnh bằng cấp</label>
+                            <input type="file" class="form-control" id="degreeImage" />
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="col-12 d-flex justify-content-end">
+                            <button type="reset" class="btn btn-outline-secondary me-1" data-bs-dismiss="modal">Hủy</button>
+                            <button type="submit" class="btn btn-primary">Cập nhật</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Làm việc modal-->
+    <div class="modal fade" id="twoFactorAuthSmsModal" tabindex="-1" aria-labelledby="twoFactorAuthSmsTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg two-factor-auth-sms">
+            <div class="modal-content">
+                <div class="modal-header bg-transparent">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-5 px-sm-5 mx-50">
+                    <h1 class="text-center mb-2 pb-50" id="workExperienceTitle">Cập nhật Quá trình Làm việc</h1>
+
+                    <form class="row gy-1 mt-1" onsubmit="return false">
+                        <div class="col-12">
+                            <label class="form-label fw-bold">Nơi làm việc</label>
+                            <input class="form-control" type="text" placeholder="Nhập tên công ty hoặc đơn vị bạn đã làm" />
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-bold">Địa chỉ</label>
+                            <input class="form-control" type="text" placeholder="Nhập địa chỉ" />
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-bold">Loại hình hoạt động của công ty có phù hợp với chuyên ngành của bạn không?</label>
+                            <select class="form-select">
+                                <option selected>Chọn câu trả lời</option>
+                                <option>Phù hợp</option>
+                                <option>Không phù hợp</option>
+                                <option>Làm tạm thời</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label fw-bold">Từ</label>
+                            <input class="form-control" type="month" placeholder="Bắt đầu làm việc" />
+                        </div>
+
+                        <div class="col-6">
+                            <label class="form-label fw-bold">Đến</label>
+                            <input class="form-control" type="month" placeholder="Kết thúc làm việc" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="chuyenNganhLamViec" class="form-label">Chuyên ngành làm việc</label>
+                            <input type="text" class="form-control" id="chuyenNganhLamViec" value="Công nghệ thông tin">
+                        </div>
+
+                        <!-- Chức danh công việc -->
+                        <div class="mb-3">
+                            <label for="chucDanhCongViec" class="form-label">Chức danh công việc</label>
+                            <input type="text" class="form-control" id="chucDanhCongViec" value="Kỹ sư phát triển front-end">
+                        </div>
+
+                        <!-- Lĩnh vực làm việc -->
+                        <div class="mb-3">
+                            <label for="linhVucLamViec" class="form-label">Lĩnh vực làm việc</label>
+                            <input type="text" class="form-control" id="linhVucLamViec" value="Cơ sở dữ liệu">
+                        </div>
+
+                        <!-- Chức vụ công việc -->
+                        <div class="mb-3">
+                            <label for="chucVuCongViec" class="form-label">Chức vụ công việc</label>
+                            <input type="text" class="form-control" id="chucVuCongViec" value="Nhân viên">
+                        </div>
+
+                        <!-- Phòng ban/bộ phận làm việc -->
+                        <div class="mb-3">
+                            <label for="phongBan" class="form-label">Phòng ban/bộ phận làm việc</label>
+                            <input type="text" class="form-control" id="phongBan" placeholder="Nhập phòng ban/ bộ phận làm việc">
+                        </div>
+
+                        <!-- Mô tả công việc đã làm -->
+                        <div class="mb-3">
+                            <label for="moTaCongViec" class="form-label">Mô tả công việc đã làm</label>
+                            <textarea class="form-control" id="moTaCongViec" rows="3" placeholder="Ghi rõ nội dung công việc đã làm"></textarea>
+                        </div>
+
+                        <!-- Loại hình và thời gian làm việc -->
+                        <div class="mb-3">
+                            <label for="loaiHinhThoiGianLamViec" class="form-label">Loại hình và thời gian làm việc</label>
+                            <input type="text" class="form-control" id="loaiHinhThoiGianLamViec" placeholder="Chọn loại hình và thời gian làm việc">
+                        </div>
+
+                        <!-- Hình thức làm việc -->
+                        <div class="mb-3">
+                            <label for="hinhThucLamViec" class="form-label">Hình thức làm việc</label>
+                            <input type="text" class="form-control" id="hinhThucLamViec" placeholder="Chọn hình thức làm việc">
+                        </div>
+
+                        <!-- Loại hình hợp đồng lao động -->
+                        <div class="mb-3">
+                            <label for="loaiHopDong" class="form-label">Loại hình hợp đồng lao động</label>
+                            <input type="text" class="form-control" id="loaiHopDong" placeholder="Chọn loại hình hợp đồng lao động">
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-end">
+                            <button type="reset" class="btn btn-outline-secondary mt-1 me-1" data-bs-dismiss="modal" aria-label="Close">
+                                Hủy
+                            </button>
+                            <button type="submit" class="btn btn-primary mt-1">
+                                <span class="me-50">Lưu</span>
+                                <i data-feather="check"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kinh nghiệm làm việc -->
+    <div class="row">
+        <div class="card border-main p-0">
+            <div class="card-header bg-main py-2 border-bottom justify-content-center">
+                <div class="fw-bold text-info fs-3">
+                    Kinh nghiệm làm việc đến 11/2016
+                </div>
+            </div>
+            <div class="card mb-0">
+                <div class="card-body">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper">
+                                <label class="fw-bolder label2">Chuyên nghành làm việc</label>
+                                <span class="text-value">Kỹ thuật nhiệt</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper">
+                                <label class="fw-bolder label2">Số năm làm việc</label>
+                                <span class="text-value">18 năm 2 tháng</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper">
+                                <label class="fw-bolder label2">Chức danh công việc đến hiện tại</label>
+                                <span class="text-value">Kỹ sư nhiệt điện lạnh</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper">
+                                <label class="fw-bolder label2">Chức vụ công việc đã làm cao nhất</label>
+                                <span class="text-value">Nhân viên</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-1">
+                            <div class="border-wrapper d-flex align-items-center">
+                                <label class="fw-bolder label2">Điểm chất lượng CV</label>
+                                <div class="d-flex align-items-center text-value">
+                                    <span class="text-value me-2">7.00 / 10</span>
+                                    <button type="button" class="btn btn-link p-0" id="">Xem chi tiết</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

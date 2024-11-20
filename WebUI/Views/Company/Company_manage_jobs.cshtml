@@ -1,0 +1,202 @@
+﻿@{
+    Layout = "_LayoutEmployee";
+    ViewData["Title"] = "Company_manage_jobs";
+}
+
+<!-- BEGIN: Content-->
+<div class="content-body">
+    <section id="basic-and-outline-pills">
+        <div class="row match-height">
+            <!-- Basic pills starts -->
+            <div class="col-xl-12 col-lg-12">
+                <div class="card">
+                    <div class="card-header" style="border-bottom: none  !important;">
+                        <h4 class="card-title text-uppercase text-info">Quản lý Chức danh tuyển dụng</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="nav nav-pills  d-flex justify-content-between">
+                            <li class="nav-item flex-fill">
+                                <a class="nav-link border fw-bolder text-uppercase active" id="danhsachchucdanh-tab" data-bs-toggle="pill" href="#danhsachchucdanh" aria-expanded="true">Danh sách chức danh</a>
+                            </li>
+                            <li class="nav-item flex-fill">
+                                <a class="nav-link border fw-bolder text-uppercase" id="danhsachchucdanhtuyendung-tab" data-bs-toggle="pill" href="#danhsachchucdanhtuyendung" aria-expanded="false">Danh sách chức danh tuyển dụng</a>
+                            </li>
+                            <li class="nav-item flex-fill">
+                                <a class="nav-link border fw-bolder text-uppercase" id="danhsachyeucautuyendung-tab" data-bs-toggle="pill" href="#danhsachyeucautuyendung" aria-expanded="false">Danh sách yêu cầu tuyển dụng</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="danhsachchucdanh" aria-labelledby="danhsachchucdanh-tab" aria-expanded="true">
+                                <div class="content-body">
+                                    <section class="app-user-list">
+                                        <div class="card">
+                                            <div class="card-datatable table-responsive pt-0">
+                                                <table class="user-list-table table">
+                                                    <thead class="table-light">
+                                                        <tr>
+                                                            <th>Chức danh tuyển dụng</th>
+                                                            <th>Trạng thái</th>
+                                                            <th class="text-center">Thao tác</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>JT2 - Kỹ sư nhiệt điện lạnh</td>
+                                                            <td>Đã có yêu cầu tuyển dụng</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-info">Sửa</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>JT4 - Trưởng phòng kinh doanh</td>
+                                                            <td>Không có yêu cầu tuyển dụng</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-danger">Xóa</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>JT1 - Kỹ sư phát triển back-end</td>
+                                                            <td>Đã có yêu cầu tuyển dụng</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-info">Sửa</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>JT2 - Kỹ sư nhiệt điện lạnh</td>
+                                                            <td>Đã có yêu cầu tuyển dụng</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-info">Sửa</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="danhsachchucdanhtuyendung" role="tabpanel" aria-labelledby="danhsachchucdanhtuyendung-tab" aria-expanded="false">
+                                <div class="content-body">
+                                    <section class="app-user-list">
+                                        <div class="card">
+                                            <div class="card-datatable table-responsive pt-0">
+                                                <table class="user-list-table table">
+                                                    <thead class="table-light">
+                                                        <tr>
+                                                            <th>Chức danh tuyển dụng</th>
+                                                            <th>Nơi cần tuyển</th>
+                                                            <th>Chức vụ làm việc</th>
+                                                            <th>Lĩnh vực làm việc</th>
+                                                            <th>Thời gian làm việc</th>
+                                                            <th>Hình thức làm việc</th>
+                                                            <th>Trạng thái</th>
+                                                            <th class="text-center">Thao tác</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>JT9/RQ9 - Kỹ sư phát triển back-end</td>
+                                                            <td>Công ty mẹ tại TP. Hồ Chí Minh</td>
+                                                            <td>Nhân viên</td>
+                                                            <td>Mạng máy tính và an ninh mạng</td>
+                                                            <td>Theo ca bất định</td>
+                                                            <td>Remote</td>
+                                                            <td>Sẵn sàng tuyển dụng</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-warning mb-1">Gửi yêu cầu</button>
+                                                                <button class="btn btn-info">Sửa</button>
+                                                                <button class="btn btn-danger">Xóa</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>JT9/RQ9 - Kỹ sư phát triển back-end</td>
+                                                            <td>Công ty mẹ tại TP. Hồ Chí Minh</td>
+                                                            <td>Nhân viên</td>
+                                                            <td>Mạng máy tính và an ninh mạng</td>
+                                                            <td>Theo ca bất định</td>
+                                                            <td>Remote</td>
+                                                            <td>Sẵn sàng tuyển dụng</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-warning mb-1">Gửi yêu cầu</button>
+                                                                <button class="btn btn-info">Sửa</button>
+                                                                <button class="btn btn-danger">Xóa</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>JT9/RQ9 - Kỹ sư phát triển back-end</td>
+                                                            <td>Công ty mẹ tại TP. Hồ Chí Minh</td>
+                                                            <td>Nhân viên</td>
+                                                            <td>Mạng máy tính và an ninh mạng</td>
+                                                            <td>Theo ca bất định</td>
+                                                            <td>Remote</td>
+                                                            <td>Sẵn sàng tuyển dụng</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-warning mb-1">Gửi yêu cầu</button>
+                                                                <button class="btn btn-info">Sửa</button>
+                                                                <button class="btn btn-danger">Xóa</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="danhsachyeucautuyendung" role="tabpanel" aria-labelledby="danhsachyeucautuyendung-tab" aria-expanded="false">
+                                <div class="content-body">
+                                    <section class="app-user-list">
+                                        <div class="card">
+                                            <div class="card-datatable table-responsive pt-0">
+                                                <table class="user-list-table table">
+                                                    <thead class="table-light">
+                                                        <tr>
+                                                            <th>Chức danh tuyển dụng</th>
+                                                            <th>Nơi làm việc</th>
+                                                            <th>Nhu cầu nhân sự</th>
+                                                            <th>Thời gian cần nhân sự</th>
+                                                            <th>Trạng thái</th>
+                                                            <th class="text-center">Thao tác</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>JT10/RQ10/JP2 - Kỹ sư phát triển back-end</td>
+                                                            <td>Cơ sở tại TP.Cần Thơ</td>
+                                                            <td><a href="job-detail.html" class="btn-batch border text-info p-50" style="border-radius: 5px;">Đợt 1</a> 3 NV - Tuyển gấp</td>
+                                                            <td>Từ ngày: 2024-10-02 <br>Hạn chót: <span style="color: red;">2024-10-06</span></td>
+                                                            <td>Đã gửi yêu cầu</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-danger">Hủy</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>JT10/RQ10/JP2 - Kỹ sư phát triển back-end</td>
+                                                            <td>Cơ sở tại TP.Cần Thơ</td>
+                                                            <td><a href="job-detail.html" class="btn-batch border text-info p-50" style="border-radius: 5px;">Đợt 1</a> 3 NV - Tuyển gấp</td>
+                                                            <td>Từ ngày: 2024-10-02 <br>Hạn chót: <span style="color: red;">2024-10-06</span></td>
+                                                            <td>Đã gửi yêu cầu</td>
+                                                            <td class="text-center">
+                                                                <button class="btn btn-danger">Hủy</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Basic pills ends -->
+        </div>
+    </section>
+
+</div>
